@@ -14,20 +14,6 @@ public class Song {
 	private String songImage;
 	private String songSource;
 
-	
-	public Song() {
-		super();
-	}
-
-	public Song(long id, String songName, String songArtist, String songImage, String songSource) {
-		super();
-		this.id = id;
-		this.songName = songName;
-		this.songArtist = songArtist;
-		this.songImage = songImage;
-		this.songSource = songSource;
-	}
-
 	public long getId() {
 		return id;
 	}
