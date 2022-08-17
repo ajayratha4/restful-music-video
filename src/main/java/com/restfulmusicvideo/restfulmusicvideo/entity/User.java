@@ -16,6 +16,7 @@ public class User {
 	private String email;
 	private String name;
 	private Boolean isloggedin;
+	private String password;
 
 	public long getId() {
 		return id;
@@ -55,6 +56,14 @@ public class User {
 
 	public void setIsloggedin(Boolean isloggedin) {
 		this.isloggedin = isloggedin;
+	}
+
+	public String getPassword() {
+		return password;
+	}
+
+	public void setPassword(String password) {
+		this.password = password;
 	}
 
 }
